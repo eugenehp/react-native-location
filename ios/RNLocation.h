@@ -1,4 +1,4 @@
-#import <React/RCTBridgeModule.h>
+// #import <React/RCTBridgeModule.h>
 
 @interface RNLocation : NSObject <RCTBridgeModule>
 
