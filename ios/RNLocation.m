@@ -171,4 +171,9 @@ RCT_EXPORT_METHOD(stopUpdatingHeading)
     [self.bridge.eventDispatcher sendDeviceEventWithName:@"locationUpdated" body:locationEvent];
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+    return YES;
+}
+
 @end
